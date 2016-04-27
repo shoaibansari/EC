@@ -1,0 +1,364 @@
+body
+{
+	margin:0px;
+}
+@font-face 
+{
+    font-family: GothamNarrow-Medium;
+    src: url(file:///D|/Shoaib/App/Excede%20calculator/fonts/GothamNarrow-Medium.otf);
+}
+@font-face 
+{
+    font-family: gothamcondensedbold;
+    src: url(file:///D|/Shoaib/App/Excede%20calculator/fonts/ufonts.com_gothamcondensed-bold-opentype.otf);
+}
+@font-face 
+{
+    font-family: GothamNarrow-Bold;
+    src: url(file:///D|/Shoaib/App/Excede%20calculator/fonts/GothamNarrow-Bold.otf);
+}
+@font-face 
+{
+    font-family: GothamNarrow-Book;
+    src: url(file:///D|/Shoaib/App/Excede%20calculator/fonts/GothamNarrow-Book.otf);
+}
+
+#cover
+{
+	height:719px;
+	width:1024px;
+	background-image:url(file:///D|/Shoaib/App/Excede%20calculator/img/bg.png);
+	overflow:hidden;
+	background-size:cover;
+}
+.cover_txt
+ {
+    height: 176px;
+    width: 302px;
+    float: left;
+    margin-left: 41px;
+    margin-top: 25px;
+    font-size: 83px;
+    color: white;
+    text-transform: uppercase;
+    /* background-color: #0FF; */
+    font-family: gothamcondensedbold;
+}
+/*.logo
+{
+    height: 44px;
+    width: 121px;
+    float: right;
+    margin-top: 33px;
+    margin-right: 48px;
+    background-color: #0FF;
+	background-image:url(file:///D|/Shoaib/App/Excede%20calculator/img/logo.png);
+	background-repeat:no-repeat;
+}*/
+.strtbtn
+{
+    height: 67px;
+    width: 304px;
+    float: right;
+    margin-top: 580px;
+    margin-right: 50px;
+    /* background-color: #0FF; */
+    background-image: url(file:///D|/Shoaib/App/Excede%20calculator/img/strt_btn.png);
+	background-repeat:no-repeat;
+}
+/**********************COVER********************/
+
+/**********************INSIDE********************/
+
+#inside
+{
+	height:719px;
+	width:1024px;
+	/*background-color:#0FF;*/
+	background-image:url(file:///D|/Shoaib/App/Excede%20calculator/img/inside_bg.png);
+	background-repeat:no-repeat;
+	overflow:hidden;
+	background-size:cover;
+}
+/*.horselogo
+{
+    height: 39px;
+    width: 49px;
+     background-color: #0FF; 
+    background-image: url(file:///D|/Shoaib/App/Excede%20calculator/img/icon_horse.png);
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 49px;
+    margin-top: 12px;
+}*/
+.inside_txt
+{
+    float: left;
+    margin-left: 40px;
+    /*margin-top: 6px;*/
+    height: 36px;
+    width: 212px;
+    color: #0096af;
+    /* background-color: #0ff; */
+    font-family: GothamNarrow-Bold;
+    font-size: 25px;
+}
+.inside_logo
+{
+    height: 44px;
+    width: 81px;
+    float: left;
+    margin-top: 14px;
+    margin-left: 795px;
+    /* background-color: #0FF; */
+    background-image: url(file:///D|/Shoaib/App/Excede%20calculator/img/logo2.png);
+    background-repeat: no-repeat;
+}
+.inside_excidebox
+ {
+    height: 624px;
+    width: 593px;
+    /* background-color: #0FF; */
+    background-image: url(file:///D|/Shoaib/App/Excede%20calculator/img/inside_box.png);
+    float: right;
+    margin-top: 86px;
+    margin-right: 52px;
+}
+/********************** inside inner ********************/
+.inside_inner
+{
+    height: 222px;
+    width: 543px;
+    background-color: #eef2f4;
+    border-radius: 15px;
+    float: left;
+    margin-left: 26px;
+    margin-top: 11px;
+}
+.inside_innerb_w
+{
+    height: 126px;
+    width: 543px;
+    background-color: #eef2f4;
+    border-radius: 15px;
+    float: left;
+    margin-left: 26px;
+    margin-top: 13px;
+}
+.inside_innertop
+{
+    height: 176px;
+    width: 543px;
+    background-color: #eef2f4;
+    border-radius: 15px;
+    float: left;
+    margin-left: 26px;
+    margin-top: 12px;
+}
+.inside_inner3rows
+{
+    height: 176px;
+    width: 543px;
+    background-color: #eef2f4;
+    border-radius: 15px;
+    float: left;
+    margin-left: 26px;
+    margin-top: 11px;
+}
+.topbold_txt
+{
+    height: 29px;
+    width: 206px;
+    /* background-color: #0FF; */
+    float: left;
+    margin-left: 15px;
+    font-family: GothamNarrow-Book;
+    color: #ff671f;
+    line-height: 0px;
+    margin-top: 15px;
+    /* font-size: x-small; */
+}
+.txt_inner
+{
+    font-family: GothamNarrow-Bold;
+    font-size: larger;
+    color: #ff671f;
+    font-weight: bolder;
+    /* margin: 0; */
+    float: left;
+    margin-left: 15px;
+}
+.txt_innerright
+{
+	float: left;
+    margin-left: 6px;
+    margin-top: 20px;
+    font-size: small;
+}
+.formhead
+{
+    height: 20px;
+    width: 108px;
+    /* background-color: #0FF; */
+    color: #585858;
+    font-family: GothamNarrow-Bold;
+    float: left;
+    margin-top: 4px;
+    margin-left: 44px;
+    font-size: 20px;
+}
+.formtop
+{
+    height: 149px;
+    width: 495px;
+    /* background-color: #333; */
+    background-image: url(file:///D|/Shoaib/App/Excede%20calculator/img/box1.png);
+    float: left;
+    margin-left: 24px;
+    margin-top: -28px;
+}
+.formheadbw
+{
+    height: 22px;
+    width: 93px;
+    /* background-color: #0FF; */
+    color: #585858;
+    font-family: GothamNarrow-Bold;
+    float: left;
+    margin-top: 4px;
+    margin-left: 44px;
+    font-size: 20px;
+}
+.formbw
+{
+    height: 103px;
+    width: 495px;
+    /* background-color: #333; */
+    background-image: url(file:///D|/Shoaib/App/Excede%20calculator/img/box2.png);
+    float: left;
+    margin-left: 24px;
+    margin-top: -34px;
+}
+.formheadbottom
+{
+    height: 22px;
+    width: 93px;
+    /* background-color: #0FF; */
+    color: #ff671f;
+    font-family: GothamNarrow-Bold;
+    float: left;
+    margin-top: 6px;
+    margin-left: 44px;
+    font-size: 20px;
+}
+.formbottom
+{
+    height: 200px;
+    width: 495px;
+    /* background-color: #333; */
+    background-image: url(file:///D|/Shoaib/App/Excede%20calculator/img/box3.png);
+    float: left;
+    margin-top: -34px;
+    margin-left: 24px;
+}
+.form3rows
+{
+    height: 152px;
+    width: 495px;
+    /* background-color: #333; */
+    background-image:url(file:///D|/Shoaib/App/Excede%20calculator/img/box4.png);
+	background-repeat:no-repeat;
+    float: left;
+    margin-top: -34px;
+    margin-left: 24px;
+}
+.paragraph
+{
+    height: 20px;
+    width: 161px;
+    color: #FFF;
+    /* background-color: #666; */
+    font-family: GothamNarrow-Medium;
+    margin-left: 47px;
+    margin-top: 26px;
+    float: left;
+}
+/********************** inside inner ********************/
+
+
+/**********************buttons********************/
+.ornageIMG
+{
+	    background-image: url(file:///D|/Shoaib/App/Excede%20calculator/img/active_bg.png);
+}
+.defaultbtn
+{
+    height: 125px;
+    width: 326px;
+    /* background-color: #0FF; */
+    float: left;
+    margin-left: 46px;
+    margin-top: 35px;
+	background-repeat:no-repeat;
+}
+.gryImg
+{
+   background-image: url(file:///D|/Shoaib/App/Excede%20calculator/img/gray_bg.png);
+
+}
+.excede_txt
+{
+    height: 78px;
+    width: 223px;
+    /* background-color: #0FF; */
+    float: left;
+    margin-left: 28px;
+    font-family: GothamNarrow-Book;
+    color: #FFF;
+    line-height: 0px;
+    margin-top: 17px;
+    font-size: large;
+}
+.txt
+{
+
+    font-family: GothamNarrow-Bold;
+    font-size: xx-large;
+    color: #FFF;
+    font-weight: bolder;
+}
+
+/**********************buttons********************/
+
+.txt_box_top
+{
+    float: right;
+    margin-right: 15px;
+    margin-top: 15px;
+    line-height: 36px;
+    width: 70px;
+    outline: none;
+    border-style: none;
+    font-family: GothamNarrow-Bold;
+    text-align: right;
+    font-size: medium;
+    color: #585858;
+    /*background-color: aquamarine;*/
+}
+.txt_box_top2
+{
+    float: right;
+    margin-right: 53px;
+    margin-top: -145px;
+    line-height: 33px;
+    width: 70px;
+    outline: none;
+    border-style: none;
+    font-family: gothamcondensedbold;
+    text-align: right;
+    font-size: x-large;
+    color: #0096af;
+    background-color:rgba(238, 242, 244, 0.01);
+	/*background-color: aquamarine;*/
+}
+/**********************INSIDE********************/

@@ -1,0 +1,378 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/device.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<script>
+  function start()
+{
+	$("#cover").css("display","none");
+	$("#inside").css("display","block");
+}
+function EXCEDE()
+{
+	$("#excedehide").css("display","block");
+	$("#NAXCEL").css("display","none");
+	$("#TUCOPRIM").css("display","none");
+	$("#SMZTMP").css("display","none");
+}
+function excedehide()
+{
+	$("#excedehide").css("display","none");
+	$("#NAXCEL").css("display","block");
+	$("#TUCOPRIM").css("display","none");
+	$("#SMZTMP").css("display","none");
+}
+function TUCOPRIM()
+{
+    $("#TUCOPRIM").css("display","block");
+	$("#NAXCEL").css("display","none");
+	$("#excedehide").css("display","none");
+	$("#SMZTMP").css("display","none");
+}
+function SMZTMP()
+{
+	$("#SMZTMP").css("display","block");
+	$("#NAXCEL").css("display","none");
+	$("#TUCOPRIM").css("display","none");
+	$("#excedehide").css("display","none");
+}
+//SMZTMP
+function changeClss(btn)
+{
+	$("#EXCEDE1").addClass("gryImg");
+	$("#NAXCEL1").addClass("gryImg");
+	$("#TUCOPRIM1").addClass("gryImg");
+	$("#SMZTMP1").addClass("gryImg");
+	
+	$("#EXCEDE1").removeClass("ornageIMG");
+	$("#NAXCEL1").removeClass("ornageIMG");
+	$("#TUCOPRIM1").removeClass("ornageIMG");
+	$("#SMZTMP1").removeClass("ornageIMG");
+	
+	$('#'+btn).addClass("ornageIMG");
+	$('#'+btn).removeClass("gryImg");
+	
+}
+    
+    </script>
+
+<body>
+     
+     
+     <div class="marvel-device macbook">
+    <!--<div class="top-bar"></div>-->
+    <div class="camera"></div>
+    <div class="screen">
+
+
+  <div id="cover" style="display:block;">
+     <div class="cover_txt">
+        <p style="margin-top:0px;">EXCEDE calculator</p>
+     </div>
+    
+     <!--<div class="logo"></div>-->
+     
+     <div class="strtbtn" onClick="start()"></div>
+  </div>
+  <!---------------cover------------------->
+
+  <!-----------inside-------------------->
+  <section id="inside" style="display:none;">
+   
+      <p class="inside_txt">Excede Calculator</p>
+   
+     <!--<span class="inside_logo"></span>-->
+     
+     <!------ inside_excidebox ------>
+     <div class="inside_excidebox">
+     
+     <!------- EXCEDE -------------->  
+      <div id="excedehide" style="display:block">
+      
+        <span class="topbold_txt">
+           <p class="txt_inner">EXCEDE</p>
+           <p class="txt_innerright">Cost/ 1200 lb. Horse</p>
+       </span>
+       
+       
+        <span class="inside_innertop">
+            <p class="formhead">Medications</p>
+            <span class="formtop">
+               <p class="paragraph">Amout Prescribed (ml)</p>
+               <p class="paragraph" style="float:left;margin-top:73px;margin-left:-161px;width:77px;">Doses/day</p>
+               <p class="paragraph" style="float:left;margin-top:120px;margin-left:-160px;width:60px;">Cost/ML</p>
+               
+               
+                 <span><input type="text" size="10" class="txt_box_top"></span>
+                 
+                 <span><input type="text" size="10" class="txt_box_top" style="margin-top:63px;margin-right:-70px;"></span>
+                 
+                 <span><input type="text" size="10" class="txt_box_top" style="margin-top:111px;margin-right:-71px;"></span>
+            </span>
+        
+        </span>
+       
+       
+        <span class="inside_innerb_w">
+             <p class="formheadbw">Treatment</p>
+            <span class="formbw">
+                <p class="paragraph" style="width:125px;">Vet Call Expense</p>
+                <p class="paragraph" style="float:left;margin-top:73px;margin-left:-126px;width:119px;">Number of Visits</p>
+                
+                <span><input type="text" size="10" class="txt_box_top" style="margin-top:17px;margin-right:13px;"></span>
+                
+                <span><input type="text" size="10" class="txt_box_top" style="margin-top:65px;margin-right:-70px;"></span>
+                
+            </span>
+        </span>
+       
+       
+        <span class="inside_inner">
+            <p class="formheadbottom">Outputs</p>
+            <span class="formbottom">
+               <p class="paragraph" style="width:251px;margin-top:28px;">Total Amount used/treatment (mL)</p>
+               <p class="paragraph" style="float:left;margin-top:76px;margin-left:-250px;width:110px;">Cost of Product</p>
+               <p class="paragraph" style="float:left;margin-top:124px;margin-left:-251px;width:257px;">Total Expense of EXCEDE Treatment</p>
+               <p class="paragraph" style="float:left;margin-top:170px;margin-left:-258px;width:307px;">EXCEDE Treatment if owner gives 2nd dose</p>
+               
+               <span><input type="text" size="10" class="txt_box_top2" style="margin-top:19px;margin-right:10px;"></span>
+               
+               <span><input type="text" size="10" class="txt_box_top2" style="margin-top:14px;margin-right:10px;"></span>
+               
+               <span><input type="text" size="10" class="txt_box_top2" style="margin-top:14px;margin-right:10px;"></span>
+               
+               <span><input type="text" size="10" class="txt_box_top2" style="margin-top:14px;margin-right:10px;"></span>
+               
+            </span>
+        </span>
+        
+    </div>
+ <!------- EXCEDE --------------> 
+    
+    
+ <!-------------NAXCEL--------------->  
+  
+    <div id="NAXCEL" style="display:none">
+    
+       <span class="topbold_txt">
+           <p class="txt_inner">NAXCEL</p>
+           <p class="txt_innerright">Cost/ 1200 lb. Horse</p>
+       </span>
+       
+       <span class="inside_innertop">
+            <p class="formhead">Medications</p>
+            <span class="formtop">
+               <p class="paragraph">Amout Prescribed (ml)</p>
+               <p class="paragraph" style="float:left;margin-top:73px;margin-left:-161px;width:77px;">Doses/day</p>
+               <p class="paragraph" style="float:left;margin-top:120px;margin-left:-160px;width:60px;">Cost/ML</p>
+               
+               <span><input type="text" size="10" class="txt_box_top"></span>
+                 
+               <span><input type="text" size="10" class="txt_box_top" style="margin-top:63px;margin-right:-70px;"></span>
+                 
+               <span><input type="text" size="10" class="txt_box_top" style="margin-top:111px;margin-right:-71px;"></span>
+               
+            </span>.
+        </span>
+      
+      <span class="inside_innerb_w">
+            <p class="formheadbw">Treatment</p>
+            <span class="formbw">
+                <p class="paragraph" style="width:125px;">Vet Call Expense</p>
+                <p class="paragraph" style="float:left;margin-top:73px;margin-left:-126px;width:119px;">Number of Visits</p>
+                
+                <span><input type="text" size="10" class="txt_box_top" style="margin-top:17px;margin-right:13px;"></span>
+                
+                <span><input type="text" size="10" class="txt_box_top" style="margin-top:65px;margin-right:-70px;"></span>
+                
+            </span>
+        </span>
+        
+        <span class="inside_inner3rows">
+            <p class="formheadbottom">Outputs</p>
+            <span class="form3rows">
+               <p class="paragraph" style="width:251px;margin-top:28px;">Total Amount used/treatment (mL)</p>
+               <p class="paragraph" style="float:left;margin-top:76px;margin-left:-250px;width:110px;">Cost of Product</p>
+               <p class="paragraph" style="float:left;margin-top:124px;margin-left:-251px;width:258px;">Total Expense of NAXCEL Treatment</p>
+               
+               <span><input type="text" size="10" class="txt_box_top2" style="margin-top:19px;margin-right:10px;"></span>
+               
+               <span><input type="text" size="10" class="txt_box_top2" style="margin-top:67px;margin-right:-69px;"></span>
+               
+               <span><input type="text" size="10" class="txt_box_top2" style="margin-top:116px;margin-right:-71px;"></span>
+               
+            </span>
+        </span>
+        
+        
+    </div>
+<!-------------NAXCEL--------------->
+
+
+<!---------- TUCOPRIM -------------->
+      <div id="TUCOPRIM" style="display:none">
+      
+           <span class="topbold_txt" style="width:228px;">
+           <p class="txt_inner">TUCOPRIM</p>
+           <p class="txt_innerright">Cost/ 1200 lb. Horse</p>
+       </span>
+       
+       
+        <span class="inside_innertop">
+            <p class="formhead">Medications</p>
+            <span class="formtop">
+               <p class="paragraph" style="width:193px;">Amout Prescribed (scoops)</p>
+               <p class="paragraph" style="float:left;margin-top:73px;margin-left:-192px;width:77px;">Doses/day</p>
+               <p class="paragraph" style="float:left;margin-top:120px;margin-left:-192px;width:214px;">Cost/treatment (average 1 jar)</p>
+               <span><input type="text" size="10" class="txt_box_top"></span>
+                 
+               <span><input type="text" size="10" class="txt_box_top" style="margin-top:63px;margin-right:-70px;"></span>
+                 
+               <span><input type="text" size="10" class="txt_box_top" style="margin-top:111px;margin-right:-71px;"></span>
+               
+            </span>.
+        </span>
+       
+       
+        <span class="inside_innerb_w">
+             <p class="formheadbw">Treatment</p>
+            <span class="formbw">
+                <p class="paragraph" style="width:125px;">Vet Call Expense</p>
+                <p class="paragraph" style="float:left;margin-top:73px;margin-left:-126px;width:119px;">Number of Visits</p>
+                
+                <span><input type="text" size="10" class="txt_box_top" style="margin-top:17px;margin-right:13px;"></span>
+                
+                <span><input type="text" size="10" class="txt_box_top" style="margin-top:65px;margin-right:-70px;"></span>
+                
+            </span>
+        </span>
+       
+       
+        <span class="inside_inner3rows">
+            <p class="formheadbottom">Outputs</p>
+            <span class="form3rows">
+               <p class="paragraph" style="width:164px;margin-top:28px;font-size:smaller;margin-left:41px;">Total Amount of TUCOPRIM</p><p class="paragraph" style="width:149px;margin-top:28px;margin-left:1px;font-size:smaller;">used/treatment (scoops)</p>
+               <p class="paragraph" style="float:left;margin-top:76px;margin-left:-312px;width:110px;">Cost of Product</p>
+               <p class="paragraph" style="float:left;margin-top:124px;margin-left:-310px;width:275px;">Total Expense of TUCOPRIM Treatment</p>
+               
+               <span><input type="text" size="10" class="txt_box_top2" style="margin-top:19px;margin-right:10px;"></span>
+               
+               <span><input type="text" size="10" class="txt_box_top2" style="margin-top:67px;margin-right:-69px;"></span>
+               
+               <span><input type="text" size="10" class="txt_box_top2" style="margin-top:116px;margin-right:-71px;"></span>
+               
+            </span>
+        </span>      
+        
+      </div>
+      
+<!---------- TUCOPRIM -------------->
+
+<!---------- SMZ-TMP -------------->
+      <div id="SMZTMP" style="display:none">
+      
+      <span class="topbold_txt" style="width:260px;">
+           <p class="txt_inner">SMZ-TMP</p>
+           <p class="txt_innerright">Tablets Cost/ 1200 lb. Horse</p>
+       </span>
+       
+       
+        <span class="inside_innertop">
+            <p class="formhead">Medications</p>
+            <span class="formtop">
+               <p class="paragraph">Amout Prescribed (ml)</p>
+               <p class="paragraph" style="float:left;margin-top:73px;margin-left:-161px;width:77px;">Doses/day</p>
+               <p class="paragraph" style="float:left;margin-top:120px;margin-left:-160px;width:60px;">Cost/ML</p>
+               
+               <span><input type="text" size="10" class="txt_box_top"></span>
+                 
+               <span><input type="text" size="10" class="txt_box_top" style="margin-top:63px;margin-right:-70px;"></span>
+                 
+               <span><input type="text" size="10" class="txt_box_top" style="margin-top:111px;margin-right:-71px;"></span>
+               
+            </span>.
+        </span>
+       
+       
+        <span class="inside_innerb_w">
+             <p class="formheadbw">Treatment</p>
+            <span class="formbw">
+                <p class="paragraph" style="width:125px;">Vet Call Expense</p>
+                <p class="paragraph" style="float:left;margin-top:73px;margin-left:-126px;width:119px;">Number of Visits</p>
+                
+                <span><input type="text" size="10" class="txt_box_top" style="margin-top:17px;margin-right:13px;"></span>
+                
+                <span><input type="text" size="10" class="txt_box_top" style="margin-top:65px;margin-right:-70px;"></span>
+                
+            </span>
+        </span>
+       
+       
+        <span class="inside_inner">
+            <p class="formheadbottom">Outputs</p>
+            <span class="formbottom">
+               <p class="paragraph" style="width:193px;margin-top:28px;">Number of Days Prescribed</p>
+               <p class="paragraph" style="float:left;margin-top:76px;margin-left:-193px;width:110px;">Cost of Product</p>
+               <p class="paragraph" style="float:left;margin-top:124px;margin-left:-192px;width:266px;">Total Expense of SMZ-TMP Treatment</p>
+               <p class="paragraph" style="float:left;margin-top:173px;margin-left:-270px;width:282px;font-size:small;">Total Amount of SMZ-TMP used/treatment (tabs)</p>
+               
+               <span><input type="text" size="10" class="txt_box_top2" style="margin-top:19px;margin-right:10px;"></span>
+               
+               <span><input type="text" size="10" class="txt_box_top2" style="margin-top:67px;margin-right:-71px;"></span>
+               
+               <span><input type="text" size="10" class="txt_box_top2" style="margin-top:115px;margin-right:-71px;"></span>
+               
+               <span><input type="text" size="10" class="txt_box_top2" style="margin-top:164px;margin-right:-71px;"></span>
+               
+            </span>
+        </span>
+      
+      </div>
+<!---------- SMZ-TMP -------------->
+
+     </div>  
+<!------ inside_excidebox ------>
+     
+     <span class="defaultbtn ornageIMG" style="margin-top:0px;" onClick="EXCEDE();changeClss('EXCEDE1')" id="EXCEDE1">
+       <span class="excede_txt">
+           <p class="txt">EXCEDE</p>
+           <p>Cost/ 1200 lb. Horse</p>
+       </span>
+     </span>
+     
+     
+     <span class="defaultbtn gryImg" onClick="excedehide();changeClss('NAXCEL1')" id="NAXCEL1">
+        <span class="excede_txt">
+           <p class="txt">NAXCEL</p>
+           <p>Cost/ 1200 lb. Horse </p>
+       </span>
+     </span>
+     
+     
+     <span class="defaultbtn gryImg" onClick="TUCOPRIM();changeClss('TUCOPRIM1')" id="TUCOPRIM1">
+        <span class="excede_txt">
+           <p class="txt">TUCOPRIM</p>
+           <p>Cost/ 1200 lb. Horse</p>
+       </span>
+     </span>
+     
+     <span class="defaultbtn gryImg" onClick="SMZTMP();changeClss('SMZTMP1')" id="SMZTMP1">
+        <span class="excede_txt">
+           <p class="txt">SMZ-TMP</p>
+           <p>Tablets Cost/ 1200 lb. Horse</p>
+       </span>
+     </span>
+  </section>
+  <!-------------- inside -------------------->
+  
+  </div>
+    <!--<div class="bottom-bar"></div>-->
+</div>
+  
+</body>
+</html>
